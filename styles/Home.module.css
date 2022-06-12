@@ -1,15 +1,18 @@
 .container {
-  padding: 0 2rem;
+  
+  
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-content: flex-start;
+  
 }
 
 .footer {
@@ -42,7 +45,8 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
+  color: white;
 }
 
 .title,
@@ -114,3 +118,51 @@
     flex-direction: column;
   }
 }
+
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+.mainnav ul li{
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  color: white;
+}
+
+.topcontainer p{
+  font-weight: bold;
+  margin-top: 2px;
+  padding: 2px;
+  color:whitesmoke;
+  text-align: center;
+  font-size: large;
+  font-family:cursive;
+}
+
+.atag :hover{
+  color: black;
+}
+
+.musicimg{
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.imgwrap{
+  padding: 10px;
+}
+
+.content{
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+
+
