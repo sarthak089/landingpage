@@ -21,12 +21,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Courses Provided by Sarthak Music 
+          Sarthak Music School
         </h1>
         <div className={styles.imgwrap}>
         <Image className={styles.musicimg} src="/coverimg.jpg" width={300} height={200} />
         </div>
          <div className={styles.content}>
+          <h2>Courses Provided at Sarthak Music School</h2>
           <h2>Guitar</h2>
           <p>The guitar is a fretted musical instrument that typically has six strings.</p>
          </div>
