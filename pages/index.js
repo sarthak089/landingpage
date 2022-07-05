@@ -21,7 +21,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Sarthak Music School
+         ♫ Sarthak Music School ♫
         </h1>
         <div className={styles.imgwrap}>
         <Image className={styles.musicimg} src="/coverimg.jpg" width={300} height={200} />
